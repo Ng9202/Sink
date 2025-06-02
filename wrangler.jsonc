@@ -17,13 +17,13 @@
   },
   "analytics_engine_datasets": [
     {
-      "binding": "ANALYTICS",
-      "dataset": "sink"
+      "binding": "SINK_AE",
+      "dataset": "sink_ae"
     }
   ],
   "kv_namespaces": [
     {
-      "binding": "KV",
+      "binding": "sink_kv",
       "id": "784ad09d58ca41489a1f79a71ebe5195" // IMPORTANT: Change this to your KV namespace ID
     }
   ]
